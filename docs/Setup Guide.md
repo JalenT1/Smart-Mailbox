@@ -31,7 +31,7 @@
   - Change topic to PiMailbox – this is the MQTT topic to send sensor data
 - Run code and navigate to Test in AWS IoT Core, click MQTT test client
   - In Subscribe to a topic field, enter the topic name (PiMailbox) then click Subscribe. The MQTT messages should appear.
-## Setting up DynamDB:
+## Setting up DynamoDB:
 - In AWS IoT Core, go to Manage → Message Routing → Rules
 - Click Create Rule and in Rule properties, enter a new rule name (MailBoxLogging) then click Next to continue
 - In the SQL Statement field, enter the following:
