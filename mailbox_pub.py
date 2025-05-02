@@ -7,10 +7,10 @@ import json
 
 from datetime import datetime
 
-host = "a2ewvd37yd4ns9-ats.iot.us-east-2.amazonaws.com"
-certPath = "/home/jalent_pi/cert/"
-clientId = "Raspberry_Pi"
-topic = "PiMailbox"
+host = "YOUR HOST ADDRESS"
+certPath = "CERT FOLDER LOCATION"
+clientId = "DEVICE NAME"
+topic = "TOPIC NAME"
 
 DOOR_PIN = 17
 MAIL_PIN = 18
