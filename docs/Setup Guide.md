@@ -1,15 +1,15 @@
 ## Hardware Setup:
-- Connect the IR sensor to GPIO pin 18 , 5V, and GND
-- Connect the door sensor to another GPIO pin 17 and GND
+- Connect the IR sensor to GPIO pin 18, 5V, and GND.
+- Connect the door sensor to GPIO pin 17 and GND.
 ## AWS IoT Setup:
 - Go to AWS IoT Core → Manage → Things → Create a thing
-- Register your device (Raspberry_Pi), and generate the following:
+- Register your device (e.g., Raspberry_Pi), and generate the following:
   - Device certificate
   - Private key
   - Public key
   - Amazon Root CA
 ## Configure AWS IoT Policy:
-- Security → Policies
+- Nagigate to Security → Policies
 - Click on the policy then select Edit Active Version (if no policy create one)
 - Configure Policy Document:
   - In Policy Document section, set wildcard (*) values for both Policy Action and Policy Resource
