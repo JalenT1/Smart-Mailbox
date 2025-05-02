@@ -21,9 +21,9 @@
 ## Raspberry Pi Setup:
 - Place Certificates and key files to a folder on your raspberry pi named “cert”
 - Transfer the following files from your computer to the cert folder and rename them to the following:
-  - RootCA1.pem
-  - RaspberryPi-cert.pem.crt
-  - RaspberryPi-private.pem.key
+  - Amazon Root CA → RootCA1.pem
+  - Device certificate → RaspberryPi-cert.pem.crt
+  - Private key → RaspberryPi-private.pem.key
 - Downlaod the mailbox_pub.py script from the Source Code folder to your Raspberry Pi. Edit the file (can use nano) and modify the following:
   - host URL: AWS IoT Core → Domain configuration. Your device has a device data endpoint to connect to AWS. Copy the Domain name and replace where it says “YOUR HOST ADDRESS”
   - certPath: replace with the directory to your cert folder created earlier.
