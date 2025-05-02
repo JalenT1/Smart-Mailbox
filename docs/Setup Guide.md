@@ -69,4 +69,6 @@
     - SNS topic: DoorStateAlert
     - IAM role: DoorAlertRole
 
-Run mailbox_pub.py script again to test the email alert system. You should receive an email alert shortly after running the script.  
+Run mailbox_pub.py script again to test the email alert system. You should receive an email alert shortly after running the script. User will be notified after every state change of the system. 
+## Demo Video
+[Watch on Youtube] (https://youtube.com/shorts/i_-ORuXHe_s?si=MjLMxqKufRI1vxbC)
