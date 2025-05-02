@@ -12,3 +12,6 @@ A Raspberry Pi smart mailbox system that detects when the mailbox is opened/clos
 - IR Sensor
 - Door Sensor
 - Wires
+
+## Demo Video
+[Watch on Youtube] (https://youtube.com/shorts/i_-ORuXHe_s?si=MjLMxqKufRI1vxbC)
