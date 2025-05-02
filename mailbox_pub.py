@@ -39,7 +39,6 @@ myAWSIoTMQTTClient.configureMQTTOperationTimeout(5)  # 5 sec
 myAWSIoTMQTTClient.connect()
 
 # Publish to the same topic in a loop forever
-# Initialize SenseHAT
 
 lastDoorState = None
 lastMailState = None
