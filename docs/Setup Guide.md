@@ -24,7 +24,7 @@
   - RootCA1.pem
   - RaspberryPi-cert.pem.crt
   - RaspberryPi-private.pem.key
-- With the code above create a mailbox_pub.py script. Edit the file and modify the following:
+- Downlaod the mailbox_pub.py script from the Source Code folder to your Raspberry Pi. Edit the file (can use nano) and modify the following:
   - host URL: AWS IoT Core → Domain configuration. Your device has a device data endpoint to connect to AWS. Copy the Domain name and replace where it says “YOUR HOST ADDRESS”
   - certPath: replace with the directory to your cert folder created earlier.
   - Change clientID to your AWS IoT device name
