@@ -1,6 +1,9 @@
 ## Hardware Setup:
 - Connect the IR sensor to GPIO pin 18, 5V, and GND.
 - Connect the door sensor to GPIO pin 17 and GND.
+
+![zen_cKNuRxuFwq](https://github.com/user-attachments/assets/52dea79f-c110-4884-b523-e9c80f001b10)
+
 ## AWS IoT Setup:
 - Go to AWS IoT Core → Manage → Things → Create a thing
 - Register your device (e.g., Raspberry_Pi), and generate the following:
